@@ -31,7 +31,7 @@ public final class Constants {
 	 * This separator should be enough to split values and be sure it is not
 	 * reused anywhere.
 	 */
-	public static final String SEPARATOR = "|>☃";
+	public static final String SEPARATOR = "|>@@<";
 
 	/**
 	 * OS independent line break.
