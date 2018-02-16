@@ -529,6 +529,8 @@ public class ExifTool implements AutoCloseable {
 		// Compact output.
 		args.add("-S");
 
+		args.add("-overwrite_original");
+
 		// Add tags arguments.
 		for (Map.Entry<? extends Tag, String> entry : tags.entrySet()) {
 			args.add("-" + entry.getKey().getName() + "=" + entry.getValue());
